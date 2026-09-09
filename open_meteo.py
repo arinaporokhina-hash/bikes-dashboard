@@ -21,7 +21,7 @@ The forecast reaches about 7 days ahead. For any date in the past (for example
 the first week of January 2026) use open_meteo_history, which reads Open-Meteo's
 historical archive.
 """
-
+import urllib3
 import requests
 import pandas as pd
 
