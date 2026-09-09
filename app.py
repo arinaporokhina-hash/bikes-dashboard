@@ -23,7 +23,7 @@ import threading
 import time
 from datetime import datetime, timedelta
 from io import StringIO
-
+import urllib3
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
