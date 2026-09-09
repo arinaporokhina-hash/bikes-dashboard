@@ -25,6 +25,8 @@ import urllib3
 import requests
 import pandas as pd
 
+urllib3.util.connection.HAS_IPV6 = False
+
 GEOCODE_URL = "https://geocoding-api.open-meteo.com/v1/search"
 FORECAST_URL = "https://api.open-meteo.com/v1/forecast"
 ARCHIVE_URL = "https://archive-api.open-meteo.com/v1/archive"
